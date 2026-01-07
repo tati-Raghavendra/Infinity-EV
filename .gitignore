@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Angular/Vite build and cache
+.angular/
+.angular/*
+.angular/cache/
+.vite/
+
+# Environment files
+.env
+.env.*
+
+# Build output
+dist/
+build/
+
+# Misc
+.cache
+npm-debug.log*
